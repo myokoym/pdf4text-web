@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %meta{"http-equiv" => "content-type", :content => "text/html; charset=utf-8"}
+    %title pdf4text
+  %body
+    %h1 pdf4text
+
+    Powered by
+    %a{:href => "http://www.ruby-lang.org/ja/"} Ruby
+    ,
+    %a{:href => "http://www.sinatrarb.com/intro-jp.html"} Sinatra
+    ,
+    %a{:href => "http://haml-lang.com/"} Haml
+    and
+    %a{:href => "http://ruby-gnome2.sourceforge.jp/"} Ruby/Poppler
+
+    %h2 Usage
+    http://myokoym.net/pdf4text/json?uri=PDF_FILE
+
+    %h2 Example
+    %h3 PDF
+    %a(href="http://myokoym.net/public/sample.pdf")
+      http://myokoym.net/public/sample.pdf
+
+    %h3 Text (JSON)
+    %a(href="http://myokoym.net/pdf4text/json?uri=http://myokoym.net/public/sample.pdf")
+      http://myokoym.net/pdf4text/json?uri=http://myokoym.net/public/sample.pdf
