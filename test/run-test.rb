@@ -6,6 +6,7 @@ require "test/unit/rr"
 require "rack/test"
 
 base_dir = File.expand_path(File.join(File.dirname(__FILE__), ".."))
-$LOAD_PATH.unshift(File.join(base_dir, "test"))
+test_dir = File.join(base_dir, "test")
+$LOAD_PATH.unshift(test_dir)
 
-exit Test::Unit::AutoRunner.run(true)
+exit Test::Unit::AutoRunner.run(true, test_dir)
