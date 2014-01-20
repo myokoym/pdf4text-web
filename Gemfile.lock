@@ -20,6 +20,7 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
+    rake (10.1.0)
     rr (1.1.2)
     sinatra (1.4.4)
       rack (~> 1.4)
@@ -47,6 +48,7 @@ DEPENDENCIES
   haml
   poppler
   rack-test
+  rake
   sinatra
   sinatra-contrib
   test-unit
