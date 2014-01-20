@@ -19,7 +19,7 @@ class PDF4TextTest < Test::Unit::TestCase
   def test_json
     get "/json", :uri => File.join(fixtures_dir, "sample.pdf")
     assert_true(last_response.ok?)
-    assert_equal("[\"秋\"]", last_response.body)
+    assert_match(/[\"秋\\n?\"]/, last_response.body)
   end
 
   private
