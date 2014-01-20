@@ -1,4 +1,4 @@
-# pdf4text on web
+# pdf4text on web [![Build Status](https://secure.travis-ci.org/myokoym/pdf4text-web.png?branch=master)](http://travis-ci.org/myokoym/pdf4text-web)
 
 A PDF converter for text of data-interchange format.
 
