@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class PDF4TextTest < Test::Unit::TestCase
   include Rack::Test::Methods
 
