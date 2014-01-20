@@ -6,6 +6,7 @@ gem "sinatra-contrib"
 gem "poppler"
 
 group :development, :test do
+  gem "rake"
   gem "test-unit"
   gem "test-unit-notify"
   gem "test-unit-rr"
